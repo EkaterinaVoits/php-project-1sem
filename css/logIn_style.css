@@ -1,0 +1,18 @@
+.main-section_logIn {
+    justify-content: space-between;
+    max-width: 500px;
+}
+
+.image_logIn {
+    width: 50%;
+    height: auto;
+}
+
+.container_2 {
+
+    height: auto;
+}
+
+.goBack_href {
+    margin-top: 30px;
+}

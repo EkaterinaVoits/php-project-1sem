@@ -1,0 +1,159 @@
+body {
+	background-color: #ebebeb;
+    /*margin: 0 auto;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Mont ExtraLight DEMO';
+    font-size: 12px;
+    color: #07340f;
+    height: 100%;
+}
+
+@font-face 
+{
+  font-family: Mont ExtraLight DEMO; 
+  src: url(/fonts/mont_extralightdemo.ttf); 
+}
+
+@font-face 
+{
+  font-family: Lighthaus; 
+  src: url(/fonts/lighthaus.otf); 
+}
+
+p {
+    margin: 0;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Lighthaus';
+    font-size: 24px;
+    margin-bottom: 15px;
+ /*   flex: 0 0 auto;*/
+}
+
+
+.footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    
+}
+.footer p {
+    margin: 2px;
+}
+
+.main-section {
+    display: flex;
+    background-color: white;
+    justify-content: flex-start;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    position: absolute;
+    top: 30vh;
+}
+
+a {
+  /*  text-decoration: none;*/
+    color: #075507;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.a_capcha {
+    font-size: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.container {
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px 5px 20px 30px;
+}
+
+.title {
+    margin-bottom: 20px;
+    color: #075507;
+    font-family: 'Lighthaus';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.box-input {
+    display: flex;
+    flex-direction: column;
+    margin: 3px 0px;
+
+}
+
+.login_href {
+    margin-left: 20px;
+}
+.form-wrapper {
+
+}
+
+.inputs-wrapper {
+    display: flex;
+}
+
+.radio-input {
+    margin-right: 10px;
+}
+
+input {
+    padding: 3px 10px;
+} 
+.input_2 {
+   /* min-width: 270px;*/
+}
+.box-input span {
+    font-size: 8px;
+    color: #58a923;
+}
+
+.captcha-box-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-box-input span {
+    font-size: 8px;
+    color: #58a923;
+}
+
+.image {
+    width: 50%;
+    height: auto;
+}
+
+.button {
+    margin-top: 10px;
+    padding: 7px 20px;
+    border: 1px solid #075507;
+    background-color: white;
+    font-family: 'Lighthaus';
+    font-size: 12px;
+    color: #075507;
+}
+
+.button:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+.actionButtons {
+    margin-top: 15px;
+}
